@@ -15,6 +15,7 @@
 		AC0C13BD217E41A400E41ECA /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C13BC217E41A400E41ECA /* ProtocolTests.swift */; };
 		AC0C13C8217E41A400E41ECA /* ProtocolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C13C7217E41A400E41ECA /* ProtocolUITests.swift */; };
 		AC0C13D6217E449000E41ECA /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0C13D5217E449000E41ECA /* ImageDownloader.swift */; };
+		ACEAFC512180E1DE008949CB /* imageDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEAFC502180E1DE008949CB /* imageDownloaderDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC0C13C7217E41A400E41ECA /* ProtocolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolUITests.swift; sourceTree = "<group>"; };
 		AC0C13C9217E41A400E41ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC0C13D5217E449000E41ECA /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		ACEAFC502180E1DE008949CB /* imageDownloaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageDownloaderDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AC0C13B0217E41A400E41ECA /* LaunchScreen.storyboard */,
 				AC0C13B3217E41A400E41ECA /* Info.plist */,
 				AC0C13D5217E449000E41ECA /* ImageDownloader.swift */,
+				ACEAFC502180E1DE008949CB /* imageDownloaderDelegate.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC0C13AA217E41A200E41ECA /* ViewController.swift in Sources */,
+				ACEAFC512180E1DE008949CB /* imageDownloaderDelegate.swift in Sources */,
 				AC0C13D6217E449000E41ECA /* ImageDownloader.swift in Sources */,
 				AC0C13A8217E41A200E41ECA /* AppDelegate.swift in Sources */,
 			);
